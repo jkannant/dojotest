@@ -1,0 +1,22 @@
+version: '3'
+
+# based off compose-sample-2, only we build nginx.conf into image
+# uses sample site from https://startbootstrap.com/template-overviews/agency/
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: scrap.Dockerfile
+    volumes:
+       - scraphtml:/var/html:rw
+
+  proxy:
+    image: nginx:latest
+    ports:
+      - '80:80'
+    volumes:
+      - scraphtml:/usr/share/nginx/html
+
+volumes:
+  scraphtml:
