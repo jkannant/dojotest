@@ -7,7 +7,7 @@ Please find the files under this repository and run the file docker-compose file
 
 #docker-compose up -d
 
-For your information: My current output is displaying under http://ec2-18-191-164-250.us-east-2.compute.amazonaws.com/. Please refresh the browser every 20 seconds and it will changes the output message.
+For your information: My current output is displaying under http://ec2-18-221-29-48.us-east-2.compute.amazonaws.com/. Please refresh the browser every 20 seconds and it will changes the output message.
 
 Task 2:
 =======
