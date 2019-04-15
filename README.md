@@ -12,7 +12,7 @@ For your information: My current output is displaying under http://ec2-18-221-29
 Task 2:
 =======
 
-                               Running DOJO madness application in AWS Cloud Environment
+                               Running application in AWS Cloud Environment
 
 ECS is the AWS Docker container service that handles the orchestration and provisioning of Docker containers. 
 The Container Instances are part of a logical group called an ECS Cluster
