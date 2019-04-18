@@ -1,5 +1,5 @@
-# dojotest
-This has been created for Dojo test
+HackerRank Tasks with Dojo
+
 Task 1:
 =======
 
